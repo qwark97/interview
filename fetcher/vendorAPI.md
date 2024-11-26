@@ -22,4 +22,3 @@ GET https://api.vendor.com/v1/users
 - Expected data volume is more than can be processed in memory at once
 - When there is no next link, it means all users are fetched
 - If request returns HTTP 429, it needs to be retried
-- If requests lasts longer than 10 seconds, it needs to be retried
