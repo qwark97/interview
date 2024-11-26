@@ -3,7 +3,7 @@ package store
 import (
 	"errors"
 
-	"example.com/store/model"
+	"github.com/qwark97/interview/store/model"
 )
 
 var ErrDuplicate = errors.New("entity already exists")

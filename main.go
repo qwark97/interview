@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	"example.com/controller"
-	"example.com/store"
+	"github.com/qwark97/interview/controller"
+	"github.com/qwark97/interview/store"
 )
 
 func main() {
