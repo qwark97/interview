@@ -2,6 +2,7 @@ package store
 
 import (
 	"errors"
+	"fmt"
 
 	"github.com/qwark97/interview/store/model"
 )
@@ -19,5 +20,6 @@ func (s Store) InsertUser(user model.User) error {
 	/*
 		...
 	*/
+	fmt.Println("Inserting user", user)
 	return nil
 }

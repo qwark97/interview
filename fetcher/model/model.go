@@ -10,3 +10,8 @@ type User struct {
 	FirstName string
 	LastName  string
 }
+
+type DataBatch struct {
+	Users []User
+	Error error
+}
