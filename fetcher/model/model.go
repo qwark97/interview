@@ -10,3 +10,8 @@ type User struct {
 	FirstName string
 	LastName  string
 }
+
+type IterData[T any] struct {
+	Error error
+	Data  []T
+}

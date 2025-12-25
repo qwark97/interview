@@ -1,12 +1,10 @@
 package store
 
 import (
-	"errors"
+	"fmt"
 
 	"github.com/qwark97/interview/store/model"
 )
-
-var ErrDuplicate = errors.New("entity already exists")
 
 type Store struct {
 }
@@ -19,5 +17,6 @@ func (s Store) InsertUser(user model.User) error {
 	/*
 		...
 	*/
+	fmt.Println("Inserting user:", user.FullName)
 	return nil
 }
